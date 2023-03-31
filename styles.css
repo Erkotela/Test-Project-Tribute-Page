@@ -1,0 +1,51 @@
+s* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "roboto" sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  background-color: aliceblue;
+  margin: 2rem 1rem;
+  border: 3px solid burlywood;
+  border-radius: 1rem;
+}
+#title {
+  font-size: 5rem;
+  text-align: center;
+}
+main div p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#img-div {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+}
+li {
+  margin: 1rem 2rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#tribute-info {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  width: 70%;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgb(142, 142, 234);
+  border-radius: 3px;
+}
